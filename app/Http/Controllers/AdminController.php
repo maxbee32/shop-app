@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rules\Password;
 use Illuminate\Support\Facades\Validator;
 
-class Admincontroller extends Controller
+class AdminController extends Controller
 {
     public function sendResponse($data, $message, $status = 200){
         $response =[
